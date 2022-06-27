@@ -1,0 +1,19 @@
+[
+    { 
+    "codigo": "2232",
+    "titulo": "Titanic",
+    "duracao": 121,
+    "atores": "['Leonardo diCaprio', 'Kate Winslet']",
+    "anoDeLancamento": 1999,
+    "emCartaz": false
+    },
+    { 
+        "codigo": "2212",
+        "titulo": "Matrix",
+        "duracao": 120,
+        "atores": "['Keanu Reeves']",
+        "anoDeLancamento": 1997,
+        "emCartaz": false
+    }
+    
+]

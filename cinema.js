@@ -1,5 +1,6 @@
 let cinema = 'Villa-lobos';
-let catalogo = [];
+let jsonData = require('../cinehouse/database/catalogo.json');
+let catalogo = jsonData;
 let filmeExemplo = { 
     codigo: 2232,
     titulo: 'Titanic',
@@ -23,8 +24,9 @@ let alterarStatusEmCartaz = (codigoFilme, catalogo) => {
 } //Função que altera o Booleano da propriedade "em Cartaz" do filme
 
 
-adicionarFilme(filmeExemplo, catalogo);
-console.log(catalogo);
-buscarFilme(2232, catalogo);
-alterarStatusEmCartaz(2232, catalogo);
+// adicionarFilme(filmeExemplo, catalogo);
+// console.log(catalogo);
+// buscarFilme(2232, catalogo);
+// alterarStatusEmCartaz(2232, catalogo);
+// console.log(catalogo);
 console.log(catalogo);
